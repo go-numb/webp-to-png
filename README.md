@@ -5,3 +5,6 @@ $ Get-ChildItem ./ -Filter *.webp | ForEach-Object {ffmpeg -i $_.FullName -vcode
  ```
 
  上記シェルをRustで実現。
+
+ ## Futures
+ - 処理時間目安: 1500MB(50dirs, 3100files) -> 3.0413144s
