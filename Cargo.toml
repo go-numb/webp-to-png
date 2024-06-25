@@ -1,0 +1,12 @@
+[package]
+name = "webp-to-png"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.7", features = ["derive"] }
+image = "0.25.1"
+rayon = "1.10.0"
+regex = "1.10.5"
